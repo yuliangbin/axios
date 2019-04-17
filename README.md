@@ -470,6 +470,7 @@ instance.get('/longRequest', {
 ## Interceptors
 
 You can intercept requests or responses before they are handled by `then` or `catch`.
+你可以在请求或响应被`then` or `catch`处理之前拦截它们，并对请求或响应做一些预处理。
 
 ```js
 // Add a request interceptor
